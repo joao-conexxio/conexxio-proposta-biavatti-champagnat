@@ -1,0 +1,68 @@
+<section class="blk-retorno" id="retorno">
+  <div class="wrap">
+    <div class="blk-retorno__cab" data-reveal>
+      <p class="blk-retorno__eyebrow">Depois da aplicação</p>
+      <h2 class="blk-retorno__titulo">O retorno da toxina já sai combinado da clínica.</h2>
+      <p class="blk-retorno__lead" data-acende>O efeito da toxina não dura para sempre, e ninguém precisa guardar data de cabeça. Na avaliação, a equipe explica o ciclo do seu caso e, perto da hora de renovar, chama você pelo WhatsApp para remarcar.</p>
+    </div>
+    <ol class="blk-retorno__etapas">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-retorno__ico"><!--icone:seringa--></span>
+        <h3>Aplicação</h3>
+        <p>Pontos e doses explicados antes, no seu rosto, sem pressa.</p>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-retorno__ico"><!--icone:check--></span>
+        <h3>Conferência</h3>
+        <p>Nas primeiras semanas, a equipe confere se o efeito se completou como combinado.</p>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-retorno__ico"><!--icone:conversa--></span>
+        <h3>Aviso</h3>
+        <p>Quando o efeito começa a diminuir, a mensagem chega antes de você precisar lembrar.</p>
+      </li>
+      <li data-reveal style="--d:360ms">
+        <span class="blk-retorno__ico"><!--icone:agenda--></span>
+        <h3>Retorno</h3>
+        <p>Horário na agenda e o mesmo plano, ajustado ao que mudou.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-retorno{padding-block:var(--sp-section)}
+.blk-retorno__cab{max-width:46rem}
+.blk-retorno__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-retorno__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-retorno__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-retorno__etapas{
+  list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:0;
+  border-left:1px solid color-mix(in srgb,var(--pulse) 60%,transparent);
+}
+.blk-retorno__etapas li{position:relative;padding:0 0 var(--sp-4) var(--sp-4)}
+.blk-retorno__etapas li:last-child{padding-bottom:0}
+.blk-retorno__ico{
+  position:absolute;left:-1.5rem;top:0;display:inline-flex;align-items:center;justify-content:center;
+  width:3rem;height:3rem;border-radius:50%;color:var(--brand);background:var(--bg);
+  border:1px solid color-mix(in srgb,var(--pulse) 80%,transparent);
+}
+.blk-retorno__ico svg{width:1.4rem;height:1.4rem}
+.blk-retorno__etapas h3{margin:0;padding-top:.6rem;font-family:var(--f-display);font-weight:500;font-size:clamp(1.5rem,3.5vw,1.9rem);line-height:1.1;color:var(--ink)}
+.blk-retorno__etapas p{margin:.4rem 0 0;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-retorno__etapas{
+    grid-template-columns:repeat(4,1fr);border-left:0;gap:var(--sp-4);
+    border-top:1px solid color-mix(in srgb,var(--pulse) 60%,transparent);
+  }
+  .blk-retorno__etapas li{padding:var(--sp-5) 0 0}
+  .blk-retorno__ico{left:0;top:-1.5rem}
+  .blk-retorno__etapas h3{padding-top:0}
+}
+</style>

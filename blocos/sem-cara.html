@@ -1,0 +1,54 @@
+<section class="blk-semcara" id="sem-cara">
+  <div class="wrap blk-semcara__grid">
+    <div class="blk-semcara__cab" data-reveal>
+      <p class="blk-semcara__eyebrow">Sem cara de que fez</p>
+      <h2 class="blk-semcara__titulo">O medo de ficar exagerada tem resposta: método, não "fazer menos".</h2>
+      <p class="blk-semcara__lead" data-acende>A clínica começa pelo que incomoda e também pelo que você não quer mudar. Só depois entra a proposta, com o porquê de cada passo.</p>
+    </div>
+    <ul class="blk-semcara__lista">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-semcara__ico"><!--icone:rosto--></span>
+        <div><h3>Nada de protocolo igual para todo mundo</h3><p>A avaliação é individual. O plano sai dela, não de uma tabela.</p></div>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-semcara__ico"><!--icone:conversa--></span>
+        <div><h3>Nada de empurrar procedimento</h3><p>Você ouve o que é prioridade agora, o que pode esperar e o que não faz sentido.</p></div>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-semcara__ico"><!--icone:agenda--></span>
+        <div><h3>Nada de decidir por impulso</h3><p>Plano por escrito, em etapas, com acompanhamento depois de cada uma.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.blk-semcara{padding-block:var(--sp-section)}
+.blk-semcara__grid{display:grid;gap:var(--sp-5)}
+.blk-semcara__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-semcara__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-semcara__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-semcara__lista{list-style:none;margin:0;padding:0}
+.blk-semcara__lista li{
+  display:flex;gap:var(--sp-3);align-items:flex-start;padding-block:var(--sp-4);
+  border-top:1px solid color-mix(in srgb,var(--pulse) 50%,transparent);
+}
+.blk-semcara__lista li:last-child{border-bottom:1px solid color-mix(in srgb,var(--pulse) 50%,transparent)}
+.blk-semcara__ico{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;
+  width:3rem;height:3rem;border-radius:50%;color:var(--brand);
+  border:1px solid color-mix(in srgb,var(--pulse) 70%,transparent);
+}
+.blk-semcara__ico svg{width:1.5rem;height:1.5rem}
+.blk-semcara__lista h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.4rem,3.2vw,1.8rem);line-height:1.15;color:var(--ink)}
+.blk-semcara__lista p{margin:.4rem 0 0;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-semcara__grid{grid-template-columns:1fr 1.1fr;gap:var(--sp-6,4rem);align-items:center}
+}
+</style>

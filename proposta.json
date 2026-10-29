@@ -1,0 +1,237 @@
+{
+  "slug": "biavatti-champagnat",
+  "negocio": {
+    "nome": "Clínica de Estética Biavatti Champagnat",
+    "logo": "brand/logo.png",
+    "whatsapp": "5541992612158",
+    "telefone": "(41) 3073-2593",
+    "unidades": [
+      {
+        "bairro": "Bigorrilho · Curitiba",
+        "endereco": "Rua Coronel Joaquim Ignácio Taborda Ribas, 727 – Bigorrilho, Curitiba – PR, 80730-330",
+        "telefone": "(41) 3073-2593",
+        "horario": "Fecha às 19h · dias e horários pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#14557C",
+    "brand2": "#0D3F5E",
+    "ink": "#0F2433",
+    "bg": "#FFFFFF",
+    "pulse": "#35A7E3",
+    "radius": "6px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Lato",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Retorno",
+            "href": "#retorno"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Bigorrilho · Curitiba",
+        "h1": "O rosto continua sendo o seu",
+        "lead": "Toxina botulínica, preenchimento e bioestimulador de colágeno com avaliação individual e um plano explicado etapa por etapa.",
+        "cta": "Agendar avaliação gratuita",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Preenchimento",
+          "Bioestimulador de colágeno",
+          "Harmonização facial",
+          "Avaliação gratuita"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que as pacientes dizem no Google",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota média no Google"
+          },
+          {
+            "valor": "249",
+            "rotulo": "avaliações de pacientes",
+            "contar": 249
+          },
+          {
+            "valor": "Grátis",
+            "rotulo": "a avaliação inicial, segundo a clínica"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Como a clínica atende",
+        "citacao": "Ninguém precisa decidir na pressão.",
+        "autor": "Clínica Biavatti Champagnat",
+        "texto": [
+          "Quem procura harmonização quase sempre carrega a mesma dúvida: vai ficar natural? A clínica parte dela. Primeiro escuta o que incomoda e o que você quer manter. Depois examina, propõe e explica.",
+          "O resultado é um plano com ordem e motivo: o que fazer agora, o que pode esperar e como será o acompanhamento depois."
+        ]
+      }
+    },
+    {
+      "custom": "blocos/sem-cara.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os tratamentos",
+        "lead": "Os três procedimentos que a clínica coloca à frente no Google. A indicação de cada um sai da avaliação.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão do rosto, como testa, entre as sobrancelhas e ao redor dos olhos, mantendo a expressão.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Repõe volume e define contornos onde o rosto perdeu ou nunca teve, com ajustes sutis em vez de mudança de feição.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Bioestimulador de colágeno",
+            "descricao": "Estimula a produção do próprio colágeno para devolver firmeza à pele de forma gradual.",
+            "icone": "molecula"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Da primeira conversa ao acompanhamento, sem etapa escondida.",
+        "itens": [
+          {
+            "titulo": "Conversa",
+            "texto": "Você conta o que incomoda e o que não quer mudar.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação técnica",
+            "texto": "Exame individual do rosto, sem protocolo pronto.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Plano em etapas",
+            "texto": "O que será feito, por que e em que ordem, explicado antes de começar.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Acompanhamento",
+            "texto": "Orientações para depois do procedimento e retorno para conferir.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/retorno-toxina.html"
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas de quem ainda está decidindo",
+        "itens": [
+          {
+            "p": "Vou ficar com cara de exagero?",
+            "r": "O objetivo é valorizar o que você já tem, com ajustes sutis. O plano é desenhado na avaliação e você entende cada passo antes de aceitar."
+          },
+          {
+            "p": "Vão me empurrar procedimentos?",
+            "r": "A avaliação indica o que é prioridade, o que pode esperar e o que não faz sentido para você. A decisão é sua, sem pressa."
+          },
+          {
+            "p": "A avaliação tem custo?",
+            "r": "A clínica anuncia a avaliação como gratuita. Confirme o agendamento pelo WhatsApp."
+          },
+          {
+            "p": "Quando volto para renovar a toxina?",
+            "r": "O intervalo depende do seu caso e é combinado com a equipe na avaliação. A ideia é você sair já sabendo quando voltar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação, sem compromisso de fechar nada.",
+        "lead": "Mande uma mensagem e a recepção combina o melhor horário na unidade do Bigorrilho.",
+        "cta": "Agendar avaliação gratuita"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Resultados variam de paciente para paciente. Todo procedimento é indicado após avaliação profissional."
+      }
+    }
+  ]
+}
